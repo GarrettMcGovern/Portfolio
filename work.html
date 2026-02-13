@@ -21,22 +21,251 @@
 <body>
 <main>
   <article>
-   <h2>Pokemon Site</h2> 
-	   <h3>Description</h3>
-	   <h3>Skills Used</h3>
-	   <h3>Challenges & Solutions</h3>
-   
-   <h2>Countries Site</h2>
-   <p> <a href ="https://garrettmcgovern.github.io/Countries/index.html">Click Here to view site </a>
-	   <h3>Description</h3>
-	   <h3>Skills Used</h3>
-	   <h3>Challenges & Solutions</h3>
-   
-   <h2>Lego Site</h2>
-   <p> <a href ="https://garrettmcgovern.github.io/Lego/index.html">Click Here to view site </a>
-	   <h3>Description</h3>
-	   <h3>Skills Used</h3>
-	   <h3>Challenges & Solutions</h3>
+<section class="project">
+  <h1>Pokémon Pokédex Collection Tracker</h1>
+
+  <h2>Overview</h2>
+  <p>
+    The Pokémon Pokédex Collection Tracker is an interactive web application that lets users browse multiple Pokédex variations and track which Pokémon they have caught. Users can filter by region, search for specific Pokémon, and mark entries as caught, with progress dynamically updated per region.
+  </p>
+  <p>
+    This project demonstrates building a highly interactive, scalable, and responsive interface for managing large datasets.
+  </p>
+  
+  <p class="project-links">
+  <a href="https://garrettmcgovern.github.io/Pokemon/index.html" target="_blank">
+    View Live Site
+  </a> 
+  <a href="https://github.com/garrettmcgovern/Pokemon" target="_blank">
+    View Code
+	</a>
+  </p>
+  <img src ="images/pokemon-overview.png" alt="screenshot of Pokemon site" width = "100%"> 
+
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3 (Responsive Layout, Flexbox)</li>
+    <li>JavaScript (ES6)</li>
+  </ul>
+
+  <h3>Concepts & Skills</h3>
+  <ul>
+    <li>DOM manipulation</li>
+    <li>Event-driven programming</li>
+    <li>Local storage persistence</li>
+    <li>Conditional rendering</li>
+    <li>Dynamic content generation</li>
+    <li>State-based UI updates</li>
+    <li>Responsive design</li>
+  </ul>
+
+  <h2>Key Features</h2>
+  <ul>
+    <li>Multiple Pokédex variations (Normal, Shiny, Mega, G-Max, 100%)</li>
+    <li>Region-based tab navigation</li>
+    <li>Dynamic checkbox tracking for captured Pokémon</li>
+    <li>Persistent progress using localStorage</li>
+    <li>Region-specific progress counters</li>
+    <li>Filter buttons (Show All, Caught, Not Caught)</li>
+    <li>Live search functionality</li>
+    <li>Shiny image hover swap for Mega and G-Max forms</li>
+    <li>Nested navigation menu</li>
+    <li>Responsive grid layout</li>
+  </ul>
+  
+  <img src ="images/pokemon-feature.png" alt="screenshot of Pokemon site" width = "100%">
+
+  <h2>Technical Highlights</h2>
+  <ul>
+    <li><strong>Region Tab System:</strong> Simplifies navigation and reduces the number of required pages, keeping all region data accessible in one view.</li>
+    <li><strong>Dynamic Checkbox + Counter Logic:</strong> Enables persistent tracking of caught Pokémon and real-time progress updates.</li>
+    <li><strong>Filtering & Search Functionality:</strong> Improves usability by allowing users to quickly find Pokémon and track completion.</li>
+    <li><strong>Shiny Hover Image Swap:</strong> Provides an interactive way to display alternate Pokémon forms without extra pages.</li>
+  </ul>
+  
+   <img src ="images/pokemon.gif" alt="screenshot of Pokemon site" width = "100%">
+
+  <h2>Challenges & How I Solved Them</h2>
+  <ul>
+    <li><strong>Preventing Page Overload:</strong> Avoided creating 45 subpages by implementing a region-tab system.</li>
+    <li><strong>Managing Persistent User State:</strong> Used localStorage to save progress across sessions.</li>
+    <li><strong>Handling Large Data Sets:</strong> Added filtering, search, and counters to make navigation efficient.</li>
+    <li><strong>Responsive Layout Issues:</strong> Implemented a flexible grid that adjusts across screen sizes.</li>
+  </ul>
+
+  <h2>What I Learned</h2>
+  <ul>
+    <li>Structuring large interactive projects with scalable logic</li>
+    <li>Writing reusable JavaScript functions</li>
+    <li>Managing UI state effectively</li>
+    <li>Persisting data using browser storage</li>
+    <li>Improving UX through filtering and search</li>
+    <li>Debugging responsive design and layout issues</li>
+  </ul>
+  
+  <h2>Future Improvements</h2>
+    <ul>
+      <li>Include more data about Pokemon such as typing and characteristics</li>
+      <li>Implement the rest of the Pokemon for Normal and Shiny pages (about 800 more)</li>
+      <li>Add more features such as different ways to sort, such as type</li>
+    </ul>
+</section>
+
+<section class ="project">
+	<h1>Popular Countries for Tourism</h1>
+    <h2>Overview</h2>
+    <p>Popular Countries for Tourism is an informational website that highlights top travel destinations across Italy, England, and France. Each country page features a map, an about section, and key locations with images of famous landmarks.</p>
+    <p>The goal of this project was to create a clean, visually appealing layout that presents travel information in a structured and user-friendly way, while preparing the site architecture to scale as more countries are added.</p>
+
+	<p class="project-links">
+  <a href="https://garrettmcgovern.github.io/Countries/index.html" target="_blank">
+    View Live Site
+  </a> 
+  <a href="https://github.com/garrettmcgovern/Countries" target="_blank">
+    View Code
+	</a>
+  </p>
+  <img src ="images/countries-overview.png" alt="screenshot of Tourism site" width = "100%"> 
+  
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3 (Responsive layout, Flexbox)</li>
+    </ul>
+    <h3>Concepts & Skills</h3>
+    <ul>
+      <li>Structuring multi-page websites</li>
+      <li>Responsive design and grid layouts</li>
+      <li>Semantic HTML for accessibility</li>
+      <li>Image optimization and media handling</li>
+      <li>Navigation system design</li>
+    </ul>
+  
+    <h2>Key Features</h2>
+    <ul>
+      <li>Homepage listing popular travel destinations by country</li>
+      <li>Dedicated country pages for Italy, England, and France</li>
+      <li>Each country page includes: Map of the country,
+          About section describing culture and attractions,
+          Key locations with images (e.g., Venice & Rome for Italy, Paris for France, London landmarks)</li>
+      </li>
+      <li>Simple, intuitive navigation between countries</li>
+      <li>Clean responsive design that adapts from desktop to mobile</li>
+    </ul>
+ 
+<img src ="images/countries-subpage.png" alt="screenshot of Tourism site" width = "100%"> 
+  
+    <h2>Technical Highlight</h2>
+    <p><strong>Multi-Page Structure: </strong>Instead of cramming all content on a single page, each country has its own dedicated page for easier organization. Navigation allows users to move seamlessly between the homepage and country pages.</p>
+
+    <h3>Image & Layout Handling</h3>
+    <ul>
+      <li>Optimized images for faster load times</li>
+      <li>Flexbox and CSS Grid used to create responsive layouts</li>
+      <li>Ensured that maps, images, and text maintain proportion across screen sizes</li>
+    </ul>
+ 
+
+ 
+    <h2>Challenges & Solutions</h2>
+    <ul>
+	  <li><strong>Layout Challenges:</strong> Implemented a responsive Flexbox and Grid system with media queries, ensuring pages display correctly on all devices.</li>
+	  <li><strong>Organizing Content Across Pages:</strong> Created a clear menu structure linking back to the homepage, making navigation intuitive across multiple country pages.</li>
+    </ul>
+	
+    <h2>What I Learned</h2>
+    <ul>
+      <li>Planning scalable multi-page website structures</li>
+      <li>Designing responsive layouts for text, images, and media</li>
+      <li>Optimizing images and content for usability</li>
+      <li>Implementing clean and intuitive navigation systems</li>
+      <li>Using semantic HTML and CSS effectively for presentation</li>
+    </ul>
+  
+    <h2>Future Improvements</h2>
+    <ul>
+      <li>Add more countries and destinations, eventually organizing navigation hierarchically by continent → country → city</li>
+      <li>Include interactive maps with clickable locations</li>
+      <li>Add filtering by region or interest (historical, cultural, natural attractions)</li>
+      <li>Integrate multimedia like videos or virtual tours for richer user experience</li>
+    </ul>
+</section> 
+<section class="project">
+  <h1>My LEGO Collection</h1>
+
+  <h2>Overview</h2>
+  <p>
+    My LEGO Collection is a personal website showcasing my hobby of collecting LEGO sets. The site is organized into three categories: sets I own, sets I plan on buying, and dream sets that are too expensive to purchase. Each set includes an image, a description, and a personal ranking compared to other sets I own.
+  </p>
+  <p>
+    This project demonstrates creating a visually organized, responsive layout for displaying a collection, while learning CSS Grid and design principles for structured content.
+  </p>
+
+  <p class="project-links">
+    <a href="https://garrettmcgovern.github.io/Lego/index.html" target="_blank">View Live Site</a>
+    <a href="https://github.com/garrettmcgovern/Lego" target="_blank">View Code</a>
+  </p>
+  <img src="images/lego-overview.png" alt="screenshot of LEGO collection site" width="100%">
+
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3 (Responsive Layout, Grid)</li>
+  </ul>
+
+  <h3>Concepts & Skills</h3>
+  <ul>
+    <li>CSS Grid layout for structured content</li>
+    <li>Responsive design for multiple devices</li>
+    <li>Organizing images, captions, and descriptions</li>
+    <li>Creating visually balanced content cards</li>
+    <li>Structuring multi-category collections</li>
+  </ul>
+
+  <h2>Key Features</h2>
+  <ul>
+    <li>Pages for LEGO sets I own, plan on buying, and dream sets</li>
+    <li>Each set includes:Image of the set,
+        Description paragraph,
+        Personal ranking (for sets I own)
+    </li>
+    <li>Grid layout displaying three sets per row</li>
+    <li>Clean, simple informational design</li>
+  </ul>
+
+  <img src="images/lego-feature.png" alt="screenshot of LEGO sets grid" width="100%">
+
+  <h2>Technical Highlights</h2>
+  <ul>
+    <li><strong>CSS Grid Layout:</strong> Displays sets in consistent rows with images, captions, and descriptions for clear organization.</li>
+    <li><strong>Responsive Design:</strong> Grid adjusts columns for different screen sizes to maintain readability and aesthetics.</li>
+    <li><strong>Multi-Category Structure:</strong> Organizes sets into Owned, To Buy, and Dream sets for easy navigation.</li>
+  </ul>
+
+  <h2>Challenges & How I Solved Them</h2>
+  <ul>
+    <li><strong>Layout Challenges:</strong> Organizing multiple images and descriptions in a clean grid. Solved by implementing CSS Grid and spacing techniques.</li>
+    <li><strong>Responsive Issues:</strong> Ensuring the grid looks good on smaller screens. Solved with media queries that adjust column numbers and element scaling.</li>
+  </ul>
+
+  <h2>What I Learned</h2>
+  <ul>
+    <li>Using CSS Grid for structured, multi-column layouts</li>
+    <li>Organizing content with images, captions, and text cohesively</li>
+    <li>Implementing responsive design for different screen sizes</li>
+    <li>Presenting collections clearly and professionally</li>
+    <li>Improving visual hierarchy and spacing for readability</li>
+  </ul>
+
+  <h2>Future Improvements</h2>
+  <ul>
+    <li>Update content to reflect my expanded LEGO collection</li>
+    <li>Redesign the user interface for a modern look</li>
+    <li>Add filtering by theme, year, or set type</li>
+    <li>Introduce interactive elements such as a wishlist or comparison tool</li>
+  </ul>
+</section>
   </article>
 </main>
   <footer>

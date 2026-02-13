@@ -111,12 +111,14 @@ h1,
 h2,
 h3 {
   font-weight: 700;
-  margin-bottom: 1rem;
   color: #111;
 }
 
+h2 + ul, h3 + ul{ 
+	padding-left: 1.5em;
+} 
+
 h3 {
-  margin-top: 3rem;
   font-size: 1.4rem;
 }
 
@@ -128,7 +130,7 @@ p {
 /* =========================
    SKILLS GRID
 ========================= */
-article ul {
+#list{
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -136,7 +138,7 @@ article ul {
   margin-top: 2rem;
 }
 
-article ul li {
+#skill{
   background: #ffffff;
   padding: 0.75rem 1rem;
   border-radius: 6px;
@@ -209,4 +211,22 @@ footer {
 }
 
 
+.project-links {
+  margin: 1em 0;           /* space around the links */
+  font-size: 1.1em;        /* slightly larger text for visibility */
+}
 
+.project-links a {
+  color: #007acc;          /* GitHub/tech-themed blue */
+  text-decoration: none;   /* removes underline */
+  font-weight: bold;
+  margin-right: 1em;       /* spacing between links */
+}
+
+.project-links a:hover {
+  color: #005f99;          /* darker blue on hover */
+  text-decoration: underline;
+}
+h1{ 
+	text-decoration: underline;
+} 
